@@ -3,7 +3,7 @@ Linear BLDC motor controller with TMC2209 for rotation dev. based on SAMD(E)51 M
 
 By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers.This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN
 
-Files are made with Kicad Nightly Builde.
+Files are made with Kicad Nightly Build.
  
 PROS: 
 By using a linear 3 phase motor controller with an onboard stepper IC for rotation, wires can be kept very short.
