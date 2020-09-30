@@ -18,6 +18,7 @@ CONS: It takes time to perfect. All good cookies take time to make. The intended
 
  
 This hardware project is licensed under the Creative Commons CC-BY-NC-SA 
+https://creativecommons.org/licenses/by-nc-sa/4.0/
  
 (That is, you are free to use this hardware repo for personal use, but if you want to sell the hardware, a agreement between the author and yourself/legal party is mandatory).
 
