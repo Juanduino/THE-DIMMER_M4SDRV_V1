@@ -1,7 +1,9 @@
 # THE DIMMER_M4SDRV_V1
 Linear BLDC motor controller with TMC2209 for rotation dev. based on SAMD(E)51 MCU. The primary goal of this project is to make a linear motor controller, which can control the (single or multiple) Z axis and rotation on openPnP machines. With that said, the hardware could be used to control other (sub 10amp) 3 phase motors or steppers. In the openPnP community, there has been development on multi-nozzle machines for some time. This is an attempt to simplify and specify the hardware for openPnP machines.
 
-By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers.This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN.
+By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers.This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN
+
+Files are made with Kicad Nightly Builde.
  
 PROS: 
 By using a linear 3 phase motor controller with an onboard stepper IC for rotation, wires can be kept very short.
