@@ -3,7 +3,7 @@ Linear BLDC motor controller with TMC2209 for rotation dev. based on SAMD(E)51 M
 
 By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers.This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN
 
-Files are made with Kicad Nightly Build.
+Files are made with Kicad Nightly Build. If you have the latest stable releace installed, you can install the Nightly build next to it in eg. KicadNightly folder. Just dont install systam variables, which is chosen in the install guide.
 
 ![TOP](https://github.com/Juanduino/THE-DIMMER_M4SDRV_V1/blob/master/Images/TOP.PNG)
  
