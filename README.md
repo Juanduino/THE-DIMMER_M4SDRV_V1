@@ -1,7 +1,7 @@
 # THE DIMMER_M4SDRV_V1
 Linear BLDC motor controller with TMC2209 for rotation dev. based on SAMD(E)51 MCU. The primary goal of this project is to make a linear motor controller, which can control the (single or multiple) Z axis and rotation on openPnP machines. With that said, the hardware could be used to control other (sub 10amp) 3 phase motors or steppers. In the openPnP community, there has been development on multi-nozzle machines for some time. This is an attempt to simplify and specify the hardware for openPnP machines.
 
-By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers.This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN
+By introducing sub-controllers in openPnP, it is now possible to delegate various tasks to various controllers. This project builds on that feature. Each z-axis subcontroller, will connect to the mainframe by either USB or CAN
 
 Files are made with Kicad Nightly Build. If you have the latest stable releace installed, you can install the Nightly build next to it in eg. KicadNightly folder. Just dont install systam variables, which is chosen in the install guide.
 
@@ -23,9 +23,13 @@ CONS: It takes time to perfect. All good cookies take time to make. The intended
 Changelog:
 
 Added MAX40056 Current sensor on 3 out of 4 phases. The last fase will have to follow one of the ones with sensor if used seperately. In stepper configuration, the sensor will monitor the two windings on two bidirectional sensors.
-In 3 phase configuration, the 3 current sensors will be in use.
+In 3 phase configuration, the 3 current sensors will be in use. The MAX40056 has advanced PWM rejection, and ultra fast settle time. This ensures a good read in harsh PWM invironments.
 
-Added MOSFET driver MIC4605-2 which control high side & Low side using one PWM input. This mean we can use the SimpelFOC lib. as is. (Current sense still need implementation).
+Added MOSFET driver MIC4605-2 which control high side & Low side using one PWM input. This mean we can use the SimpelFOC lib. as is. (Current sense still need implementation
+This driver is not just fast its totally fast. Combined with the ultra low Gate charge and rise/fall time of the Infinion Mosfets, hopefully this will keep things cool.
+ 
+Note: Adafruit is adding support for SAME51, which has native CAN FD support.
+(source: https://github.com/adafruit/ArduinoCore-samd/pull/267)
  
 This hardware project is licensed under the Creative Commons CC-BY-NC-SA 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
