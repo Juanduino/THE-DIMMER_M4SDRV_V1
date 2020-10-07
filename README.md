@@ -18,8 +18,14 @@ By winding the coils around the magnets, the entire pull/push of the magnets is 
  
 The south and north pole of the coils will be in the direction of movement, unlike normal BLDC motors, where you make two windings for each pole pair.
  
-CONS: It takes time to perfect. All good cookies take time to make. The intended Arduino Library (SimpleFoc) needs further development to be able to work with current sensing and 6 pin switch control, which will be SAMD(E)51 specifik.
+CONS: It takes time to perfect. All good cookies take time to make. The intended Arduino Library (SimpleFoc) needs further development to be able to work with inline current sensing.
 
+Changelog:
+
+Added MAX40056 Current sensor on 3 out of 4 phases. The last fase will have to follow one of the ones with sensor if used seperately. In stepper configuration, the sensor will monitor the two windings on two bidirectional sensors.
+In 3 phase configuration, the 3 current sensors will be in use.
+
+Added MOSFET driver MIC4605-2 which control high side & Low side using one PWM input. This mean we can use the SimpelFOC lib. as is. (Current sense still need implementation).
  
 This hardware project is licensed under the Creative Commons CC-BY-NC-SA 
 https://creativecommons.org/licenses/by-nc-sa/4.0/
