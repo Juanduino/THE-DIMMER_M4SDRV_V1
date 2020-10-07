@@ -25,7 +25,7 @@ Changelog:
 Added MAX40056 Current sensor on 3 out of 4 phases. The last fase will have to follow one of the ones with sensor if used seperately. In stepper configuration, the sensor will monitor the two windings on two bidirectional sensors.
 In 3 phase configuration, the 3 current sensors will be in use. The MAX40056 has advanced PWM rejection, and ultra fast settle time. This ensures a good read in harsh PWM invironments.
 
-Added MOSFET driver MIC4605-2 which control high side & Low side using one PWM input. This mean we can use the SimpelFOC lib. as is. (Current sense still need implementation
+Added MOSFET driver MIC4605-2 which control high side & Low side using one PWM input. This mean we can use the SimpelFOC lib. as is (Current sense still need implementation).
 This driver is not just fast its totally fast. Combined with the ultra low Gate charge and rise/fall time of the Infinion Mosfets, hopefully this will keep things cool.
  
 Note: Adafruit is adding support for SAME51, which has native CAN FD support.
