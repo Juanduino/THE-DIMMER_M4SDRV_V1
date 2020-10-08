@@ -8,6 +8,7 @@ Files are made with Kicad Nightly Build. If you have the latest stable releace i
 ![TOP](https://github.com/Juanduino/THE-DIMMER_M4SDRV_V1/blob/master/Images/TOP.PNG)
  
 PROS: 
+
 By using a linear 3 phase motor controller with an onboard stepper IC for rotation, wires can be kept very short.
  
 The linear motor is easy to make yourself with common 3mm long neodymium magnets. (Onboard Hall sensors is spaced apart, with the appropriate distance for these magnets)
@@ -18,6 +19,9 @@ By winding the coils around the magnets, the entire pull/push of the magnets is 
  
 The south and north pole of the coils will be in the direction of movement, unlike normal BLDC motors, where you make two windings for each pole pair.
  
+Mosfets have quite different specs. when it comes to voltages and current ratings. If using 12v or 24v for a motor, its better to use 30v rated mosfets with a mush lower Rds(on) (resistence) compared to higher voltage rated MOSFETS. 
+The amount of heat dissipated from the Mosfets can be calculated. (see https://d1d2qsbl8m0m72.cloudfront.net/en/products/databook/applinote/ic/power/switching_regulator/power_loss_appli-e.pdf)
+
 CONS: It takes time to perfect. All good cookies take time to make. The intended Arduino Library (SimpleFoc) needs further development to be able to work with inline current sensing.
 
 Changelog:
