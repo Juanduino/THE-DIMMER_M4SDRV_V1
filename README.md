@@ -35,9 +35,4 @@ This driver is not just fast its totally fast. Combined with the ultra low Gate 
 Note: Adafruit is adding support for SAME51, which has native CAN FD support.
 (source: https://github.com/adafruit/ArduinoCore-samd/pull/267)
  
-This hardware project is licensed under the Creative Commons CC-BY-NC-SA 
-https://creativecommons.org/licenses/by-nc-sa/4.0/
- 
-(That is, you are free to use this hardware repo for personal use, but if you want to sell the hardware, a agreement between the author and yourself/legal party is mandatory).
-
 
