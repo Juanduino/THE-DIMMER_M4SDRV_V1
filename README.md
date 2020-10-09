@@ -56,7 +56,7 @@ Communication ports:
 
 SERCOM port can be configuered to I2C, SPI and serial.
 
-CAN FD is integrated into the SAME51 mcu.
+CAN FD is integrated into the SAME51 MCU.
 
 USB 2.0 full speed. (USB port data-pins is broken out)
 
