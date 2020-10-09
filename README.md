@@ -11,7 +11,7 @@ PROS:
 
 By using a linear 3 phase motor controller with an onboard stepper IC for rotation, wires can be kept very short.
  
-The linear motor is easy to make yourself with common 3mm long neodymium magnets. (Onboard Hall sensors is spaced apart, with the appropriate distance for these magnets)
+The linear motor is easy to make yourself with common 3mm long neodymium magnets. (Onboard Hall sensors is spaced apart, with the appropriate distance for these magnets). Likewise a external (angle)sensor can be connected via SPI, I2C or Serial.
  
 To make the motor, the idea is to fill up a eg. stainless steel pipe with magnets and spacers between those magnets. The coils of the motor will be wound on a 3D printed "slider" (bushing) with the appropriate spacing to match the magnet's length (3mm).
  
