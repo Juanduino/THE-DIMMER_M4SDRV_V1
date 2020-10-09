@@ -34,5 +34,34 @@ This driver is not just fast its totally fast. Combined with the ultra low Gate 
  
 Note: Adafruit is adding support for SAME51, which has native CAN FD support.
 (source: https://github.com/adafruit/ArduinoCore-samd/pull/267)
+
+HARDWARE:
+
+SAME51 MCU 120 mhz M4 architecture with CAN FD (https://www.microchip.com/wwwproducts/en/ATSAME51J20A)
+
+TMC2209 stepper driver (https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/)
+
+MOSFETS BSC0925ND Dual channal 40amp 17nC gate charge (https://www.infineon.com/cms/en/product/power/mosfet/12v-300v-n-channel-power-mosfet/bsc0925nd/)
+
+Gate drivers MIC4605-2 PWM indput (https://www.microchip.com/wwwproducts/en/MIC4605)
+
+Current sensors MAX40056 (https://datasheets.maximintegrated.com/en/ds/MAX40056F-MAX40056U.pdf)
+
+Step-Down converter 4v/36v to 10v rail 1amp (https://www.ti.com/product/LMR50410)
+
+3.6v LDO 500mA (https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf)
+
+
+Communication ports:
+
+SERCOM port can be configuered to I2C, SPI and serial.
+
+CAN FD is integrated into the SAME51 mcu.
+
+USB 2.0 full speed. (USB port data-pins is broken out)
+
+
+
+
  
 
