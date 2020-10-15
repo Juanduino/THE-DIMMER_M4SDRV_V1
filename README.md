@@ -66,6 +66,8 @@ CAN FD is integrated into the SAME51 MCU.
 USB 2.0 full speed. (USB port data-pins is broken out)
 
 
+
+
 ![Dimensions](https://github.com/Juanduino/THE-DIMMER_M4SDRV_V1/blob/master/Images/Dimensions.PNG)
 
 
