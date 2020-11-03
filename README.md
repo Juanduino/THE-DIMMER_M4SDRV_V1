@@ -58,6 +58,8 @@ Analog hall sensors will potentially give a precision of the ADC resolution over
 
 CAN FD physical layer IC MCP2562FD-E_SN 8Mbps (https://www.microchip.com/wwwproducts/en/MCP2562FD)
 
+4 layer PCB w. 105µm outer copper. (Min 0.25 mm. trace width and clearence)
+
 
 Communication ports:
 
