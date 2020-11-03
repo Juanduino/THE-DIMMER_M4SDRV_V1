@@ -52,9 +52,11 @@ Step-Down converter 4v/36v to 10v rail 1amp (https://www.ti.com/product/LMR50410
 
 3.6v LDO 500mA (https://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf)
 
-3 x ANALOG HALL sensors (https://www.ti.com/product/DRV5053?qgpn=drv5053). 
+3 x ANALOG HALL sensors (https://www.ti.com/product/DRV5053?qgpn=drv5053)
 
 Analog hall sensors will potentially give a precision of the ADC resolution over one polepair. Thats 12bit (4096:1) (3mm/4096=0,0007mm)
+
+CAN FD physical layer IC MCP2562FD-E_SN 8Mbps (https://www.microchip.com/wwwproducts/en/MCP2562FD)
 
 
 Communication ports:
