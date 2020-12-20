@@ -26,7 +26,10 @@ The amount of heat dissipated from the Mosfets can be calculated. (see page 3 ht
 CONS: It takes time to perfect. All good cookies take time to make. The intended Arduino Library (SimpleFoc) needs further development to be able to work with inline current sensing.
 
 Changelog:
+
 Added BusBar footprint for 1.5mm copper wire. This add´s some 50amp rating to the VIN line. (@10C rise)
+
+Mosfets are rated for MAX 60amp pulsed current.
 
 Added MAX40056 Current sensor on 3 out of 4 phases. The last fase will have to follow one of the ones with sensor if used seperately. In stepper configuration, the sensor will monitor the two windings on two bidirectional sensors.
 In 3 phase configuration, the 3 current sensors will be in use. The MAX40056 has advanced PWM rejection, and ultra fast settle time. This ensures a good read in harsh PWM invironments.
