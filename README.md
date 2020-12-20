@@ -5,7 +5,7 @@ By introducing sub-controllers in openPnP, it is now possible to delegate variou
 
 Files are made with Kicad Nightly Build. If you have the latest stable releace installed, you can install the Nightly build next to it in eg. KicadNightly folder. Just dont install systam variables, which is chosen in the install guide.
 
-![TOP](https://github.com/Juanduino/THE-DIMMER_M4SDRV_V1/blob/master/Images/TOP.PNG)
+![TOP](https://github.com/Juanduino/THE-DIMMER_M4SDRV_V1/blob/master/Images/Allmost%20there.PNG)
 
  
 PROS: 
